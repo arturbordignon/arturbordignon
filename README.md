@@ -1,5 +1,5 @@
 <div>
-  <h1>Hi, I'm <a href="https://www.linkedin.com/in/arturbordignon/"><i>Artur</i></a> 🚀</h1>
+  <h1>Hi, I'm <a href="https://www.linkedin.com/in/arturbordignon/">Artur</a> 🚀</h1>
   <h2>Front End Developer</h2>
   <h3>I am currently pursuing my <b>Bachelor's</b> in <b>Software Engineering.</b></h3>
     
