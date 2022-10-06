@@ -1,7 +1,6 @@
 <div>
   <h1>Hi, I'm <a href="https://www.linkedin.com/in/arturbordignon/">Artur</a> 🚀</h1>
   <h2>Front End Developer</h2>
-  <h3>I am currently pursuing my <b>Bachelor's</b> in <b>Software Engineering.</b></h3>
     
   <h4>I often develop applications that goes beyond the classes I attend. Seeking constant personal and professional improvement, you can check out my projects here on GitHub.</h4> 
 
