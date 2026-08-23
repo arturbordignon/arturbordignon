@@ -1,163 +1,116 @@
 <p align="center">
   <a href="#english">
-    <img src="https://img.shields.io/badge/🇺🇸%20English-blue?style=for-the-badge&logo=github&logoColor=white" alt="English Version"/>
+    <img src="https://img.shields.io/badge/🇺🇸%20English-1f6feb?style=for-the-badge" alt="English"/>
   </a>
-  &nbsp;&nbsp;
-  <a href="#português-brasil">
-    <img src="https://img.shields.io/badge/🇧🇷%20Português%20(BR)-green?style=for-the-badge&logo=github&logoColor=white" alt="Versão em Português"/>
+  &nbsp;
+  <a href="#portugues">
+    <img src="https://img.shields.io/badge/🇧🇷%20Portugu%C3%AAs-238636?style=for-the-badge" alt="Português"/>
   </a>
 </p>
 
----
+## <a name="english"></a>Artur Enderle Bordignon
 
-## <a name="english"></a>🇺🇸 English
+**Full-Stack Developer** | PHP, JavaScript/TypeScript, React, Node.js, PostgreSQL
+<br>
+Guaporé, Rio Grande do Sul, Brazil (GMT-3)
 
-<div align="center">
-  <h1>👋 Hi, I'm <a href="https://www.linkedin.com/in/artur-enderle-bordignon/">Artur Enderle Bordignon</a></h1>
-  <h3>🚀 Full Stack Developer | AI & Automation Engineer | Performance Builder</h3>
-</div>
+I build web systems and keep them running. Today I work on an e-commerce platform used by more than 500 stores, where I use PHP in the backend, JavaScript in the frontend and PostgreSQL for the queries behind it. Outside of work I build and operate my own products, including the servers they run on.
 
----
-
-### 💡 About Me
-I’m a **Full Stack Developer** focused on delivering **tangible business results** through technology.  
-I **build scalable systems**, **automate operations**, and **improve client performance** using **PHP, React, Node.js, and PostgreSQL**.  
-My work creates measurable value — saving time, cutting costs, and increasing revenue.
-
-> I provide value by transforming code into efficiency, intelligence, and growth.
+- 📫 [arturbordignon6@gmail.com](mailto:arturbordignon6@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/artur-enderle-bordignon/)
+- 🗣️ Portuguese (native), English (professional, B2/C1)
 
 ---
 
-### 🧠 Core Skills & Technologies
-#### 💻 Languages & Frameworks  
-[![stack](https://skillicons.dev/icons?i=js,ts,react,next,php,codeigniter,nodejs,cs,dotnet&perline=9)](https://skillicons.dev)
+### Products I built and run
 
-#### 🗄️ Databases  
-[![db](https://skillicons.dev/icons?i=postgres,mysql,mongodb&perline=9)](https://skillicons.dev)
+**[RodaCheck](https://rodacheck.com/)**: Truck fleet management and inspection. Live.
+Drivers fill inspection checklists on the app, managers read the results on a web panel, both talking to a PHP 8.2 API with PostgreSQL. I run the infrastructure myself: VPS, Docker Compose, Caddy for HTTPS, Valkey for cache and rate limiting, S3-compatible storage for the photos, plus the deploy, staging and rollback scripts. Built with my father, who has 30 years in the fleet business.
+`PHP 8.2` `PostgreSQL` `React` `React Native` `Docker` `Caddy` `Valkey`
 
-#### ⚙️ Tools & Platforms  
-[![tools](https://skillicons.dev/icons?i=docker,aws,git,github,vscode,figma&perline=9)](https://skillicons.dev)
+**[RankStandings](https://rankstandings.com/)**: Sales ranking SaaS for commercial teams. Live.
+A PHP application with PostgreSQL receives webhooks from the client CRM (HubSpot, Salesforce, etc), calculates the ranking and shows it in real time. I also built the billing side: subscriptions, invoices and trials, with Docker containers running the scheduled jobs.
+`PHP 8.1` `PostgreSQL` `Vanilla JS` `SCSS` `Docker` `Webhooks`
 
----
+**Crane Proposal**: Quote automation for heavy-equipment rental companies.
+Generates standardized commercial proposals from client, product and price data, cutting quoting time by more than 60%.
+`Next.js` `PHP API` `Supabase` `AI automation`
 
-### 🚧 Active Private Projects *(not open source)*
-#### 🧾 Crane Proposal  
-SaaS that automates proposal creation for heavy-equipment companies.  
-Cuts quoting time by over 60% and standardizes client communications.  
-**Stack:** Next.js • PHP API • Supabase • AI Automation  
+**PolyPulse**: Analytics dashboard for prediction markets (Polymarket, Kalshi in progress). In development.
+Java 21 and Spring Boot API with SQLite and Flyway, Angular frontend with ECharts, Redis cache and background workers syncing traders, positions and user alerts. Login with Google and X using OAuth2 with PKCE, JWT with HttpOnly refresh cookies.
+`Java 21` `Spring Boot` `Angular` `SQLite` `Flyway` `Redis` `OAuth2`
 
-#### 🚛 RodaCheck — Fleet Management  
-Fleet inspection and management system (web + mobile + API) improving control and safety for logistics operations.  
-**Stack:** PHP 8.2 • PostgreSQL 14 • Docker • Nginx + PHP-FPM  
-
-#### 🏆 SalesRanking Platform  
-Gamified sales ranking platform with real-time analytics and goal tracking to increase sales team engagement.  
-**Stack:** PHP 8.1 • PostgreSQL • Vanilla JS • SCSS • Custom Router & Cache  
+Source is private on these: they are commercial products, and the repos contain deployment runbooks. Happy to walk through architecture, code and decisions in a call.
 
 ---
 
-### 🔥 Business Impact
-- 📊 Automated workflows that reduce manual work and error rates  
-- 💰 Optimized processes that drive faster revenue cycles  
-- ⚙️ Integration solutions that eliminate inefficiencies across teams  
-- 🚀 Scalable architecture that reduces infrastructure cost and downtime  
+### Stack
+
+**Languages**: JavaScript, TypeScript, PHP, Java, C#, SQL<br>
+**Frontend**: React, React Native, Next.js, Angular, Ionic<br>
+**Backend**: Node.js, PHP, Spring Boot, .NET, REST APIs, webhooks, OAuth2, JWT<br>
+**Data**: PostgreSQL, MySQL, SQL Server, MongoDB, SQLite, Redis/Valkey<br>
+**Infra**: AWS (EC2, S3, RDS), Docker, Docker Compose, Nginx, Caddy, CI/CD, VPS<br>
+**Tools**: Git, Swagger, Jest, n8n, Claude Code, Codex<br>
 
 ---
 
-### 🧪 Public & Experimental Projects
-- **EducaGenius** — AI platform for lesson and test generation  
-- **FreshPizza** — real-time ordering app for local pizzerias  
-- **Gabaritaê** — gamified ENEM study platform  
+### Experiments
+
+**EducaGenius**: AI lesson and test generation for teachers<br>
+**FreshPizza**: real-time ordering for pizzerias<br>
+**Gabaritaê**: gamified ENEM study app<br>
 
 ---
 
-### 📈 GitHub Stats
-<p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=arturbordignon&show_icons=true&theme=dracula&title_color=ff8000&text_color=ffffff&bg_color=000000&layout=compact&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=arturbordignon&show_icons=true&theme=dracula&title_color=ff8000&text_color=ffffff&bg_color=000000&hide_border=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=arturbordignon&theme=highcontrast&hide_border=true" />
-</p>
+## <a name="portugues"></a>Artur Enderle Bordignon
+
+**Desenvolvedor Full-Stack** | PHP, JavaScript/TypeScript, React, Node.js, PostgreSQL<br>
+Guaporé, Rio Grande do Sul, Brasil (GMT-3)
+
+Crio sistemas web e mantenho eles no ar. Hoje trabalho em uma plataforma de e-commerce usada por mais de 500 lojas, onde utilizo PHP no backend, JavaScript no front e as consultas no PostgreSQL. Fora do trabalho construo e opero meus próprios produtos, incluindo os servidores em que eles rodam.
+
+- 📫 [arturbordignon6@gmail.com](mailto:arturbordignon6@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/artur-enderle-bordignon/)
+- 🗣️ Português (nativo), Inglês (profissional, B2/C1)
 
 ---
 
-### 🤝 Let’s Talk
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Artur_Enderle_Bordignon-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/artur-enderle-bordignon)
-[![Email](https://img.shields.io/badge/Email-arthurbordignon%40hotmail.com-0078D4?logo=microsoftoutlook&logoColor=white)](mailto:arthurbordignon@hotmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-25D366?logo=whatsapp&logoColor=white)](https://wa.me/5554999280093)
+### Produtos que criei e mantenho
+
+**[RodaCheck](https://rodacheck.com/)**: Gestão e inspeção de frotas de caminhões.
+O motorista preenche o checklist no aplicativo, o gestor vê o resultado em um painel, e os dois conversam com uma API em PHP 8.2 com PostgreSQL. Cuido da infraestrutura sozinho: VPS, Docker Compose, Caddy para HTTPS, Valkey para cache e limite de requisições, storage compatível com S3 para as fotos, além dos scripts de deploy, staging e rollback. Feito junto com meu pai, que tem 30 anos de experiência no setor.
+`PHP 8.2` `PostgreSQL` `React` `React Native` `Docker` `Caddy` `Valkey`
+
+**[RankStandings](https://rankstandings.com/)**: SaaS de ranking de vendas para times comerciais.
+Uma aplicação PHP com PostgreSQL recebe webhooks do CRM do cliente (HubSpot, Salesfore, etc), calcula e mostra o ranking em tempo real. Também fiz a parte de cobrança: assinaturas, faturas e período de teste, com containers Docker rodando as rotinas agendadas.
+`PHP 8.1` `PostgreSQL` `Vanilla JS` `SCSS` `Docker` `Webhooks`
+
+**Crane Proposal**: Automação de propostas para locadoras de equipamentos pesados.
+Gera propostas comerciais padronizadas a partir dos dados de cliente, produto e preço, reduzindo o tempo de cotação em mais de 60%.
+`Next.js` `API PHP` `Supabase` `Automação com IA`
+
+**PolyPulse**: Painel de análise para mercados de previsão (Polymarket, Kalshi em andamento). Em desenvolvimento.
+API em Java 21 com Spring Boot, SQLite e Flyway, frontend Angular com ECharts, cache Redis e workers sincronizando traders, posições e alertas. Login com Google e X usando OAuth2 com PKCE e JWT com refresh token em cookie HttpOnly.
+`Java 21` `Spring Boot` `Angular` `SQLite` `Flyway` `Redis` `OAuth2`
+
+O código destes é privado: são produtos comerciais e os repositórios contêm os runbooks de deploy. Posso apresentar arquitetura, código e decisões em uma call.
 
 ---
 
-## <a name="português-brasil"></a>🇧🇷 Português (Brasil)
+### Stack
 
-<div align="center">
-  <h1>👋 Olá, sou <a href="https://www.linkedin.com/in/artur-enderle-bordignon/">Artur Enderle Bordignon</a></h1>
-  <h3>🚀 Desenvolvedor Full Stack | Engenheiro de IA e Automação | Gerador de Performance</h3>
-</div>
-
----
-
-### 💡 Sobre Mim
-Sou **Desenvolvedor Full Stack** focado em gerar **resultados reais para empresas e clientes**.  
-Entrego **sistemas escaláveis**, **automação de processos** e **otimização de desempenho** com **PHP, React, Node.js e PostgreSQL**.  
-Cada projeto que desenvolvo tem impacto direto: economia de tempo, redução de custos e aumento de faturamento.
-
-> Entrego valor transformando código em eficiência, inteligência e crescimento.
+**Linguagens**: JavaScript, TypeScript, PHP, Java, C#, SQL<br>
+**Frontend**: React, React Native, Next.js, Angular, Ionic<br>
+**Backend**: Node.js, PHP, Spring Boot, .NET, APIs REST, webhooks, OAuth2, JWT<br>
+**Dados**: PostgreSQL, MySQL, SQL Server, MongoDB, SQLite, Redis/Valkey<br>
+**Infra**: AWS (EC2, S3, RDS), Docker, Docker Compose, Nginx, Caddy, CI/CD, VPS<br>
+**Ferramentas**: Git, Swagger, Jest, n8n, Claude Code, Codex<br>
 
 ---
 
-### 🧠 Competências Técnicas
-#### 💻 Linguagens e Frameworks  
-[![stack](https://skillicons.dev/icons?i=js,ts,react,next,php,codeigniter,nodejs,cs,dotnet&perline=9)](https://skillicons.dev)
+### Experimentos
 
-#### 🗄️ Bancos de Dados  
-[![db](https://skillicons.dev/icons?i=postgres,mysql,mongodb&perline=9)](https://skillicons.dev)
-
-#### ⚙️ Ferramentas e Plataformas  
-[![tools](https://skillicons.dev/icons?i=docker,aws,git,github,vscode,figma&perline=9)](https://skillicons.dev)
-
----
-
-### 🚧 Projetos Ativos *(não públicos)*
-#### 🧾 Crane Proposal  
-SaaS B2B que automatiza a criação de propostas para empresas de locação de equipamentos pesados.  
-Reduz o tempo de cotação em mais de 60% e padroniza a comunicação.  
-**Stack:** Next.js • API PHP • Supabase • Automação com IA  
-
-#### 🚛 RodaCheck — Gestão de Frotas  
-Sistema (web + mobile + API) para inspeção e controle de frotas, aumentando a segurança e reduzindo custos operacionais.  
-**Stack:** PHP 8.2 • PostgreSQL 14 • Docker • Nginx + PHP-FPM  
-
-#### 🏆 SalesRanking Platform  
-Plataforma de ranking de vendas em tempo real com metas, gamificação e métricas de desempenho.  
-**Stack:** PHP 8.1 • PostgreSQL • Vanilla JS • SCSS • Router e Cache Custom  
-
----
-
-### 🔥 Impacto no Negócio
-- 📊 Automação que reduz erros e tarefas manuais  
-- 💰 Otimização que acelera o ciclo de vendas e aumenta margens  
-- ⚙️ Integrações que conectam dados e melhoram o fluxo operacional  
-- 🚀 Arquitetura escalável que reduz custos e aumenta confiabilidade  
-
----
-
-### 🧪 Projetos Públicos e Experimentais
-- **EducaGenius** — IA para criação automática de planos e provas  
-- **FreshPizza** — sistema de pedidos em tempo real  
-- **Gabaritaê** — app de estudos gamificado para ENEM  
-
----
-
-### 📈 Estatísticas do GitHub
-<p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=arturbordignon&show_icons=true&theme=dracula&title_color=ff8000&text_color=ffffff&bg_color=000000&layout=compact&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=arturbordignon&show_icons=true&theme=dracula&title_color=ff8000&text_color=ffffff&bg_color=000000&hide_border=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=arturbordignon&theme=highcontrast&hide_border=true" />
-</p>
-
----
-
-### 🤝 Contato
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Artur_Enderle_Bordignon-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/artur-enderle-bordignon)
-[![Email](https://img.shields.io/badge/Email-arthurbordignon%40hotmail.com-0078D4?logo=microsoftoutlook&logoColor=white)](mailto:arthurbordignon@hotmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Conversar-25D366?logo=whatsapp&logoColor=white)](https://wa.me/5554999280093)
+**EducaGenius**: IA para criação de aulas e provas<br>
+**FreshPizza**: pedidos em tempo real para pizzarias<br>
+**Gabaritaê**: app gamificado de estudos para o ENEM
